@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <img src="./assets/logo.svg" alt="Logo do site" class="logo" />
+
+        <ul>
+          <li>
+            <a href="#" class="active">
+              <ion-icon name="tablet-portrait"></ion-icon>
+              Boards
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="people"></ion-icon>
+              Teams
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="document-text"></ion-icon>
+              Reports
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <ion-icon name="cog"></ion-icon>
+              Adjusts
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div class="inner">
+          <section class="title-avatar">
+            <h1>My Kanban <img src="./assets/lápis.svg" alt="lápis" /></h1>
+            <img src="https://github.com/devCranio.png" alt="avatar" />
+          </section>
+          <section class="filter">
+            <button>
+              <ion-icon name="filter-outline"></ion-icon>
+              <span>Filter</span>
+            </button>
+            <div class="input-wrapper">
+              <ion-icon name="search-outline"></ion-icon>
+              <input type="text" placeholder="Search" />
+            </div>
+          </section>
+          <!-- section.kanban-->
+          <section class="kanban">
+            <div class="todo">
+              <h2>To do</h2>
+              <div class="cards">
+                <div class="card">
+                  <h3>#testandokanbanlorem</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    deserunt!
+                  </p>
+                  <div class="tags">
+                    <span>teste lorem</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+                 <div class="card">
+                  <h3>#testandokanbanlorem</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    deserunt!
+                  </p>
+                  <div class="tags">
+                    <span>teste lorem</span>
+                    <span>testando</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doing">
+              <h2>Doing</h2>
+              <div class="cards">
+                 <div class="card">
+                  <h3>#testandokanbanlorem</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    deserunt!
+                  </p>
+                  <div class="tags">
+                    <span>teste lorem</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="done">
+              <h2>Done</h2>
+              <div class="cards">
+                   <div class="card">
+                  <h3>#testandokanbanlorem</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    deserunt!
+                  </p>
+                  <div class="tags">
+                    <span>teste lorem</span>
+                    <span>desafio</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
